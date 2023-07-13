@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Parte 5</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td , th{
+            width: 50px;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            text-align: center;
+           
+        }
+
+        .resumo {}
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2"> Áreas </th>
+                <th rowspan="2"> Disciplinas</th>
+                <th colspan="2"> Notas</th>
+                <th rowspan="2"> Média</th>
+            </tr>
+            <tr>
+               <th>Nota 1</th> 
+               <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td> Matemática </td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Fisica </td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="resumo">
+                <th colspan="4">Média Exatas</th>
+                <td>0.0</td>
+            </tr>
+        
+            <tr>
+                <th rowspan="2" scope="rowgroup"> Humanas</td>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="resumo">
+                <th colspan="4">Média Exatas</th>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
